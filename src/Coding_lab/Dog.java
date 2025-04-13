@@ -6,19 +6,19 @@ public class Dog extends Animal implements Trainable, Swimmable {
     //重写makeSound()方法
     @Override
     public void makeSound() {
-        System.out.println("Woof woof");
+        System.out.println("汪");
     }
 
     //重写train()方法
     @Override
     public void train() {
-        System.out.println("Training dog...");
+        System.out.println("可以被训练");
     }
 
     //重写swim()方法
     @Override
     public void swim() {
-        System.out.println("Swimming dog...");
+        System.out.println("可以游泳");
     }
 
 

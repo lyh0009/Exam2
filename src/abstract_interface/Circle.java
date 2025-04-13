@@ -1,6 +1,6 @@
 package abstract_interface;
 
-public class Circle extends Shape implements Drawable{
+public class Circle extends Shape implements Drawable {
     private double radius;
 
     public Circle(double radius) {
@@ -9,13 +9,12 @@ public class Circle extends Shape implements Drawable{
 
     @Override
     public double getArea() {
-        System.out.println("The area of the circle is: " + Math.PI * radius * radius);
-        return 0;
+        return Math.PI * radius * radius;
     }
 
     @Override
     public void draw() {
-        System.out.println("Drawing a circle...");
+        System.out.println("绘制一个半径为" + radius + "的圆。");
     }
-
 }
+

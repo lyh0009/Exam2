@@ -11,13 +11,13 @@ public class Cat extends Animal implements Trainable{
     // 重写makeSound()
     @Override
     public void makeSound() {
-        System.out.println("Meow");
+        System.out.println("喵");
     }
 
     // 重写train()
     @Override
     public void train() {
-        System.out.println("Training cat...");
+        System.out.println("可以被训练");
     }
 
     // 获取毛发颜色
